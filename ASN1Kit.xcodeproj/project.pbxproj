@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0040DDBB365A7AE691912256 /* DataExtASN1IntTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0375FD76819501822510FF9 /* DataExtASN1IntTest.swift */; };
 		028E1EABB69EA19F8B33BDA8 /* ASN1PrimitiveEncodingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7149D565833C3F38AF2E9D3 /* ASN1PrimitiveEncodingTest.swift */; };
-		04C3EDA0EC2F9B903C8A3179 /* Data+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6287DA2D3E0A2FB823016F9 /* Data+Hex.swift */; };
 		075D42347F9B859EFD75CA1F /* StringExtASN1EncodingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E59EDC7B029DB06F8E1F43D /* StringExtASN1EncodingTest.swift */; };
 		0976F2CB8E66F642F85AC4BD /* ASN1Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB2F1C0CA35F0DC4C840B06 /* ASN1Kit.framework */; };
 		0B82CD9B738679672F1357BC /* IntExtASN1EncodingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF683ACCB52B2C08A6BB386 /* IntExtASN1EncodingTest.swift */; };
@@ -17,8 +16,10 @@
 		14A62F86561AA58F7A42B81E /* OutputStream+UInt8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D076069191DF89E13AE3EE9 /* OutputStream+UInt8.swift */; };
 		1C88C7CF24A0B9895AB3D3EC /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20643EB5583D310782284D8 /* XCTestManifests.swift */; };
 		1CB55A4AC9602C33703C94FD /* ASN1Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDE5B661AB69E4CC34002E /* ASN1Int.swift */; };
+		1D0C751976468F18A586FBD1 /* Data+Hex-Cli-Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407696D2A490562C78CD6C4 /* Data+Hex-Cli-Helper.swift */; };
 		1E4B7657A0C3CF435784CAF4 /* Int+ASN1Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552908E1DD373AD6498D714 /* Int+ASN1Encoding.swift */; };
 		204397D412BB5EACBC2E5678 /* ObjectIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7141F9BEAC2201CE5D6C6 /* ObjectIdentifier.swift */; };
+		21D866F1814DF7DF620E9590 /* Data+Hex-Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EADD7A2DCA99FDF9AD6655 /* Data+Hex-Helper.swift */; };
 		293BAA15A55886ABBF38C9AC /* DataExtUIntTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B2100778B001C7D6F193B /* DataExtUIntTest.swift */; };
 		2B421AB7D04D98866F2A270F /* GeneralizedTimeDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2EAB03DFE2F370514F7C02 /* GeneralizedTimeDateFormatter.swift */; };
 		2C130F6881BD9715461358D1 /* DataExtUIntTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B2100778B001C7D6F193B /* DataExtUIntTest.swift */; };
@@ -52,9 +53,9 @@
 		6273F64D98265E1DDEE02AB8 /* Array+ASN1Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F936BE5E521F5EBDF2C5B0 /* Array+ASN1Encoding.swift */; };
 		66345111C7A542F39464DEF6 /* Commandant in Frameworks */ = {isa = PBXBuildFile; productRef = ADC84A421AF3853574CC987A /* Commandant */; };
 		69F4EEAF4E3E0397D40E476F /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F74452A4040AC0BEACAE527 /* Resources.bundle */; };
-		6A1778E1343F39FC0C704C81 /* Data+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596230EC0D8305EAB47F277 /* Data+Hex.swift */; };
 		6A218EA1A163879765BF62B1 /* String+ASN1Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E69CEBA06059B7CE7BDD86 /* String+ASN1Encoding.swift */; };
 		6D940EE80BED97360C44AAE5 /* ASN1Kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FCB2F1C0CA35F0DC4C840B06 /* ASN1Kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6E0B63F9B8178CE029DBD993 /* Data+Hex-Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EADD7A2DCA99FDF9AD6655 /* Data+Hex-Helper.swift */; };
 		6ECF4DCC0E1CF7E122C912F2 /* IntExtLengthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D5090D6A516C0C7A29A46 /* IntExtLengthTest.swift */; };
 		6EFA511D9C97057E6E6E9AF4 /* Data+ASN1Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BEC210BE6F5B6011D0927 /* Data+ASN1Encoding.swift */; };
 		6F6B16FE3E56D3A5AB1D5D6E /* Bundle+ResourceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58D6B7289F8D36EE09EBACA /* Bundle+ResourceHelper.swift */; };
@@ -108,7 +109,6 @@
 		D7D7F10BA7D8511B0366B3D0 /* ASN1Kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA715287F36358662131FFEE /* ASN1Kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D88F20B4EA775B5BC55E4E03 /* ASN1DecodedTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1283DF9E0AEE91D07BBE653 /* ASN1DecodedTag.swift */; };
 		DBC03CEAD521DE42C693BE47 /* ASN1Object+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD74E01ECD7D6B36A8DD5C /* ASN1Object+Encoding.swift */; };
-		DC70920F4122647AA43CFE83 /* Data+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596230EC0D8305EAB47F277 /* Data+Hex.swift */; };
 		DCF105D37FD0913EF191FB23 /* ASN1DecodedTag+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42798FCD566F160C179F4D00 /* ASN1DecodedTag+Encoding.swift */; };
 		DD84CEBA4D68B30AF9C796CA /* UIntExtTagNoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27876AB4FF2F286108979A /* UIntExtTagNoTest.swift */; };
 		DFD7C12D471555BE02CFA8D8 /* Int+ASN1Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552908E1DD373AD6498D714 /* Int+ASN1Encoding.swift */; };
@@ -203,7 +203,6 @@
 		2DF88A2A92C0219F9499C709 /* ASN1Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1Data.swift; sourceTree = "<group>"; };
 		2E59EDC7B029DB06F8E1F43D /* StringExtASN1EncodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtASN1EncodingTest.swift; sourceTree = "<group>"; };
 		2F74452A4040AC0BEACAE527 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; path = Resources.bundle; sourceTree = "<group>"; };
-		3596230EC0D8305EAB47F277 /* Data+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hex.swift"; sourceTree = "<group>"; };
 		3B27876AB4FF2F286108979A /* UIntExtTagNoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIntExtTagNoTest.swift; sourceTree = "<group>"; };
 		3B3565C1EF3F5358CB63989B /* ASN1Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1Object.swift; sourceTree = "<group>"; };
 		3EBAFBDD359F51A1632C7D09 /* BoolExtASN1EncodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolExtASN1EncodingTest.swift; sourceTree = "<group>"; };
@@ -220,6 +219,7 @@
 		6CA0F933F8D96281292B9804 /* OutputStreamBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputStreamBuffer.swift; sourceTree = "<group>"; };
 		6FF683ACCB52B2C08A6BB386 /* IntExtASN1EncodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtASN1EncodingTest.swift; sourceTree = "<group>"; };
 		7721A2E275F531E9D69AAE59 /* DataExtASN1EncodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtASN1EncodingTest.swift; sourceTree = "<group>"; };
+		78EADD7A2DCA99FDF9AD6655 /* Data+Hex-Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hex-Helper.swift"; sourceTree = "<group>"; };
 		80C94C8336D1F9456C479130 /* ASN1KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASN1KitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		877161B2467F0F34D9E901D6 /* ASN1Primitive+Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASN1Primitive+Description.swift"; sourceTree = "<group>"; };
 		8D6589209BF92E6FAD1D8418 /* Bool+ASN1Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+ASN1Encoding.swift"; sourceTree = "<group>"; };
@@ -228,7 +228,6 @@
 		91DD74E01ECD7D6B36A8DD5C /* ASN1Object+Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASN1Object+Encoding.swift"; sourceTree = "<group>"; };
 		95E69CEBA06059B7CE7BDD86 /* String+ASN1Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ASN1Encoding.swift"; sourceTree = "<group>"; };
 		9A8427D30FFDE81EEE9EA077 /* ASN1Kit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ASN1Kit.docc; sourceTree = "<group>"; };
-		A6287DA2D3E0A2FB823016F9 /* Data+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hex.swift"; sourceTree = "<group>"; };
 		A659A6785BA96384890F6CB3 /* DataScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScanner.swift; sourceTree = "<group>"; };
 		A9781C2A34B69ED0B9AAAED3 /* asn1c */ = {isa = PBXFileReference; includeInIndex = 0; path = asn1c; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5ECA8126459D5803D20DAB /* Nimbe+ASN1Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nimbe+ASN1Data.swift"; sourceTree = "<group>"; };
@@ -243,6 +242,7 @@
 		D20643EB5583D310782284D8 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		D4414BF62063B4067B098F2C /* DataScannerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerTest.swift; sourceTree = "<group>"; };
 		D81A14559C0096076BBF8F7B /* Data+UInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+UInt.swift"; sourceTree = "<group>"; };
+		E407696D2A490562C78CD6C4 /* Data+Hex-Cli-Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hex-Cli-Helper.swift"; sourceTree = "<group>"; };
 		E411CBC6B2363A7718BB855C /* ASN1ConstructedEncodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1ConstructedEncodingTest.swift; sourceTree = "<group>"; };
 		E58D6B7289F8D36EE09EBACA /* Bundle+ResourceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ResourceHelper.swift"; sourceTree = "<group>"; };
 		E7149D565833C3F38AF2E9D3 /* ASN1PrimitiveEncodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1PrimitiveEncodingTest.swift; sourceTree = "<group>"; };
@@ -306,7 +306,7 @@
 		28A3FCBE1AFC18F874A4253C /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				A6287DA2D3E0A2FB823016F9 /* Data+Hex.swift */,
+				E407696D2A490562C78CD6C4 /* Data+Hex-Cli-Helper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 		AD50649982852D36C014BAD8 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				3596230EC0D8305EAB47F277 /* Data+Hex.swift */,
+				78EADD7A2DCA99FDF9AD6655 /* Data+Hex-Helper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -613,7 +613,7 @@
 				386D7340A71DCC2D17273A9F /* Bool+ASN1Encoding.swift in Sources */,
 				6EFA511D9C97057E6E6E9AF4 /* Data+ASN1Encoding.swift in Sources */,
 				735301D1F92747F563B85DB1 /* Data+ASN1Int.swift in Sources */,
-				DC70920F4122647AA43CFE83 /* Data+Hex.swift in Sources */,
+				21D866F1814DF7DF620E9590 /* Data+Hex-Helper.swift in Sources */,
 				A2D59E4F69851795C669A0FD /* Data+UInt.swift in Sources */,
 				F98ED991C169EFD79FC12D34 /* DataScanner.swift in Sources */,
 				3B20D9B06E44DEAEA63A92B2 /* Date+ASN1Encoding.swift in Sources */,
@@ -632,7 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C3EDA0EC2F9B903C8A3179 /* Data+Hex.swift in Sources */,
+				1D0C751976468F18A586FBD1 /* Data+Hex-Cli-Helper.swift in Sources */,
 				4EDE83BF61F1A24C49E50BC8 /* ParseCommand.swift in Sources */,
 				FAC877B733818A87D5486BB3 /* VersionCommand.swift in Sources */,
 				F0C963ACC445EE7E072C7681 /* main.swift in Sources */,
@@ -691,7 +691,7 @@
 				8DD817FBE8165C2831712CE1 /* Bool+ASN1Encoding.swift in Sources */,
 				57E3AEC51C77F79E6D5C4CF9 /* Data+ASN1Encoding.swift in Sources */,
 				57C08DBA07EDCE4E16F8F989 /* Data+ASN1Int.swift in Sources */,
-				6A1778E1343F39FC0C704C81 /* Data+Hex.swift in Sources */,
+				6E0B63F9B8178CE029DBD993 /* Data+Hex-Helper.swift in Sources */,
 				B268059EEAA76F2A9C60CEBC /* Data+UInt.swift in Sources */,
 				E88E0E7B879F8C80D99AD743 /* DataScanner.swift in Sources */,
 				E412302F15252C57DB4BD6CF /* Date+ASN1Encoding.swift in Sources */,
